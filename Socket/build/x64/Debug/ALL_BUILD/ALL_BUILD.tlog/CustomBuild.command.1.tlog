@@ -1,0 +1,10 @@
+^D:\SAVEPROJECT\[2803]CLIENT_SOCKET\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SaveProject/[2803]Client_Socket -BD:/SaveProject/[2803]Client_Socket/build --check-stamp-file D:/SaveProject/[2803]Client_Socket/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^D:\SAVEPROJECT\[2803]CLIENT_SOCKET\BUILD\CMAKEFILES\97C2D9D200D741D89481C832F00267AE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SaveProject/[2803]Client_Socket -BD:/SaveProject/[2803]Client_Socket/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/SaveProject/[2803]Client_Socket/build/ClientSocketProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -7,27 +7,28 @@
 class Socket 
 {
     public:
-        Socket(std::string ip , size_t port);
+        Socket();
         ~Socket();
-        void socket_start();
-        void socket_stop();
-        bool connect_to_server();
+        bool SocketStart();
+        void SocketStop();
+        void Settings(std::string ip, size_t port);
+        void ChangeFlag(char f) { m_flag = f;};
+        bool ConnectToServer();
+        char m_flag = '0';
+        double m_data = 0;
+        bool m_starting = false;
+        std::string m_serverIp;
+        size_t m_server_Port;
     private:
     #pragma region Members
-        std::string server_Ip;
-        size_t server_Port;
-        WSADATA wsaData;
-        SOCKET connectSocket;
-        SOCKADDR_IN serverAddr = {};
-        bool wait = false;
-        double data = 0;
-        char flag = '0';
-        bool finish = false;
-        std::string acc;
+        WSADATA m_wsaData;
+        SOCKET m_connectSocket;
+        SOCKADDR_IN m_serverAddr = {};
+        std::string m_acc;
     #pragma endregion
     #pragma region Methods
-    bool recvCall();
-    bool sendCall();
+    bool RecvCall();
+    bool SendCall();
     #pragma endregion
 
 };

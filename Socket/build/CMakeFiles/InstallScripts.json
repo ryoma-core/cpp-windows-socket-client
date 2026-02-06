@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/SaveProject/[2803]Client_Socket/build/cmake_install.cmake"
+		"D:/SaveProject/2803_Client_Socket/Socket/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/SaveProject/2803_Client_Socket/Socket/build",
+  "command": "d:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe  @CMakeFiles/clientsocketlib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clientsocketlib.dir\\src\\socket.cpp.obj -c D:\\SaveProject\\2803_Client_Socket\\Socket\\src\\socket.cpp",
+  "file": "D:/SaveProject/2803_Client_Socket/Socket/src/socket.cpp",
+  "output": "CMakeFiles/clientsocketlib.dir/src/socket.cpp.obj"
+},
+{
+  "directory": "D:/SaveProject/2803_Client_Socket/Socket/build",
+  "command": "d:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe  @CMakeFiles/example.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\example.dir\\examples\\main.cpp.obj -c D:\\SaveProject\\2803_Client_Socket\\Socket\\examples\\main.cpp",
+  "file": "D:/SaveProject/2803_Client_Socket/Socket/examples/main.cpp",
+  "output": "CMakeFiles/example.dir/examples/main.cpp.obj"
+}
+]

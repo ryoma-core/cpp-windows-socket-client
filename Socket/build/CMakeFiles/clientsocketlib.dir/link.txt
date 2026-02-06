@@ -1,0 +1,2 @@
+D:\Qt\Tools\mingw1310_64\bin\ar.exe qc libclientsocketlib.a CMakeFiles/clientsocketlib.dir/src/socket.cpp.obj
+D:\Qt\Tools\mingw1310_64\bin\ranlib.exe libclientsocketlib.a

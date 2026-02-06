@@ -1,0 +1,14 @@
+{
+   "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "example.exe",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/example.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}

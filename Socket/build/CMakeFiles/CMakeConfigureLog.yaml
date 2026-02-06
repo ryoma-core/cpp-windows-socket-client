@@ -11,6 +11,91 @@ events:
   -
     kind: "find-v1"
     backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
@@ -35,6 +120,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:\\WINDOWS\\system32"
@@ -61,15 +148,7 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Users\\jackB\\.cargo\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
-        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
-        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Users\\jackB\\.dotnet\\tools"
   -
     kind: "message-v1"
     backtrace:
@@ -79,574 +158,19 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
+      Compiler: d:/Qt/Tools/mingw1310_64/bin/g++.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       0
-      msbuild 踰꾩쟾 17.14.23+b0019275e(.NET Framework??
-      鍮뚮뱶 ?쒖옉: 2026-01-14 ?ㅼ쟾 12:03:58
-      
-      1 ?몃뱶??"D:\\SaveProject\\[2803]Client_Socket\\build\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ?꾨줈?앺듃(湲곕낯 ?\xc2\x80???낅땲??
-      PrepareForBuild:
-        "Debug\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
-        援ъ“??異쒕젰???ъ슜?????덉뒿?덈떎. 而댄뙆?쇰윭 吏꾨떒???쒖떇?\xc2\x80 ?ㅻ쪟 怨꾩링 援ъ“瑜?諛섏쁺?⑸땲?? ?먯꽭???댁슜?\xc2\x80 https://aka.ms/cpp/structured-output??李몄“?섏꽭??
-        "Debug\\CompilerIdCXX.tlog\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
-      InitializeBuildStatus:
-        "AlwaysCreate"??媛\xc2\x80) 吏\xc2\x80?뺣릺?덇린 ?뚮Ц??"Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"??瑜? 留뚮뱾怨??덉뒿?덈떎.
-        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"???곌껐(touching)?섍퀬 ?덉뒿?덈떎.
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> D:\\SaveProject\\[2803]Client_Socket\\build\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ?뚯씪????젣?섍퀬 ?덉뒿?덈떎.
-        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"???곌껐(touching)?섍퀬 ?덉뒿?덈떎.
-      "D:\\SaveProject\\[2803]Client_Socket\\build\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ?꾨줈?앺듃瑜?鍮뚮뱶?덉뒿?덈떎(湲곕낯 ?\xc2\x80??.
-      
-      鍮뚮뱶?덉뒿?덈떎.
-          寃쎄퀬 0媛?
-          ?ㅻ쪟 0媛?
-      
-      寃쎄낵 ?쒓컙: 00:00:00.81
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      The CXX compiler identification is GNU, found in:
+        D:/SaveProject/2803_Client_Socket/Socket/build/CMakeFiles/4.2.0/CompilerIdCXX/a.exe
       
-      The CXX compiler identification is MSVC, found in:
-        D:/SaveProject/[2803]Client_Socket/build/CMakeFiles/4.2.0/CompilerIdCXX/CompilerIdCXX.exe
-      
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "link"
-    candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
-      - "C:/Program Files/Razer Chroma SDK/bin/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/dotnet/"
-      - "C:/MinGW/bin/"
-      - "C:/Program Files (x86)/Incredibuild/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
-      - "C:/Users/jackB/.cargo/bin/"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/jackB/AppData/Local/afreeca/"
-      - "C:/Users/jackB/AppData/Local/SOOP/"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/jackB/.dotnet/tools/"
-      - "C:/Program Files/Bandizip/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
-    searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
-    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
-        - "C:\\Program Files\\Razer Chroma SDK\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\MinGW\\bin"
-        - "C:\\Program Files (x86)\\Incredibuild"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
-        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
-        - "C:\\Users\\jackB\\.cargo\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
-        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
-        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\jackB\\.dotnet\\tools"
-        - "C:\\Program Files\\Bandizip\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Users\\jackB\\.cargo\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
-        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
-        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Users\\jackB\\.dotnet\\tools"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "lld-link"
-    candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
-      - "C:/Program Files/Razer Chroma SDK/bin/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/dotnet/"
-      - "C:/MinGW/bin/"
-      - "C:/Program Files (x86)/Incredibuild/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
-      - "C:/Users/jackB/.cargo/bin/"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/jackB/AppData/Local/afreeca/"
-      - "C:/Users/jackB/AppData/Local/SOOP/"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/jackB/.dotnet/tools/"
-      - "C:/Program Files/Bandizip/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
-    searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.com"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.exe"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link"
-      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.com"
-      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.exe"
-      - "C:/Program Files/Razer Chroma SDK/bin/lld-link"
-      - "C:/Windows/System32/lld-link.com"
-      - "C:/Windows/System32/lld-link.exe"
-      - "C:/Windows/System32/lld-link"
-      - "C:/Windows/lld-link.com"
-      - "C:/Windows/lld-link.exe"
-      - "C:/Windows/lld-link"
-      - "C:/Windows/System32/wbem/lld-link.com"
-      - "C:/Windows/System32/wbem/lld-link.exe"
-      - "C:/Windows/System32/wbem/lld-link"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
-      - "C:/Windows/System32/OpenSSH/lld-link.com"
-      - "C:/Windows/System32/OpenSSH/lld-link.exe"
-      - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Program Files/dotnet/lld-link.com"
-      - "C:/Program Files/dotnet/lld-link.exe"
-      - "C:/Program Files/dotnet/lld-link"
-      - "C:/MinGW/bin/lld-link.com"
-      - "C:/MinGW/bin/lld-link.exe"
-      - "C:/MinGW/bin/lld-link"
-      - "C:/Program Files (x86)/Incredibuild/lld-link.com"
-      - "C:/Program Files (x86)/Incredibuild/lld-link.exe"
-      - "C:/Program Files (x86)/Incredibuild/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
-      - "C:/Program Files/Git/cmd/lld-link.com"
-      - "C:/Program Files/Git/cmd/lld-link.exe"
-      - "C:/Program Files/Git/cmd/lld-link"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.com"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.exe"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.com"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.exe"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link"
-      - "C:/Users/jackB/.cargo/bin/lld-link.com"
-      - "C:/Users/jackB/.cargo/bin/lld-link.exe"
-      - "C:/Users/jackB/.cargo/bin/lld-link"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/Users/jackB/AppData/Local/afreeca/lld-link.com"
-      - "C:/Users/jackB/AppData/Local/afreeca/lld-link.exe"
-      - "C:/Users/jackB/AppData/Local/afreeca/lld-link"
-      - "C:/Users/jackB/AppData/Local/SOOP/lld-link.com"
-      - "C:/Users/jackB/AppData/Local/SOOP/lld-link.exe"
-      - "C:/Users/jackB/AppData/Local/SOOP/lld-link"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/lld-link.com"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/lld-link.exe"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/lld-link"
-      - "C:/Users/jackB/.dotnet/tools/lld-link.com"
-      - "C:/Users/jackB/.dotnet/tools/lld-link.exe"
-      - "C:/Users/jackB/.dotnet/tools/lld-link"
-      - "C:/Program Files/Bandizip/lld-link.com"
-      - "C:/Program Files/Bandizip/lld-link.exe"
-      - "C:/Program Files/Bandizip/lld-link"
-      - "C:/Program Files/CMake/bin/lld-link.com"
-      - "C:/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Program Files/CMake/bin/lld-link"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/lld-link.com"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/lld-link.exe"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/lld-link"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
-        - "C:\\Program Files\\Razer Chroma SDK\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\MinGW\\bin"
-        - "C:\\Program Files (x86)\\Incredibuild"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
-        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
-        - "C:\\Users\\jackB\\.cargo\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
-        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
-        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\jackB\\.dotnet\\tools"
-        - "C:\\Program Files\\Bandizip\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Users\\jackB\\.cargo\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
-        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
-        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Users\\jackB\\.dotnet\\tools"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_LINKER"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "link"
-    candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
-      - "C:/Program Files/Razer Chroma SDK/bin/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/dotnet/"
-      - "C:/MinGW/bin/"
-      - "C:/Program Files (x86)/Incredibuild/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
-      - "C:/Users/jackB/.cargo/bin/"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/jackB/AppData/Local/afreeca/"
-      - "C:/Users/jackB/AppData/Local/SOOP/"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/jackB/.dotnet/tools/"
-      - "C:/Program Files/Bandizip/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
-    searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
-    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
-        - "C:\\Program Files\\Razer Chroma SDK\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\MinGW\\bin"
-        - "C:\\Program Files (x86)\\Incredibuild"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
-        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
-        - "C:\\Users\\jackB\\.cargo\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
-        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
-        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\jackB\\.dotnet\\tools"
-        - "C:\\Program Files\\Bandizip\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Users\\jackB\\.cargo\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
-        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
-        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Users\\jackB\\.dotnet\\tools"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_MT"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "mt"
-    candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
-      - "C:/Program Files/Razer Chroma SDK/bin/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/dotnet/"
-      - "C:/MinGW/bin/"
-      - "C:/Program Files (x86)/Incredibuild/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
-      - "C:/Users/jackB/.cargo/bin/"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/jackB/AppData/Local/afreeca/"
-      - "C:/Users/jackB/AppData/Local/SOOP/"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/jackB/.dotnet/tools/"
-      - "C:/Program Files/Bandizip/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
-    searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt.com"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt.exe"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt"
-      - "C:/Program Files/Razer Chroma SDK/bin/mt.com"
-      - "C:/Program Files/Razer Chroma SDK/bin/mt.exe"
-      - "C:/Program Files/Razer Chroma SDK/bin/mt"
-      - "C:/Windows/System32/mt.com"
-      - "C:/Windows/System32/mt.exe"
-      - "C:/Windows/System32/mt"
-      - "C:/Windows/mt.com"
-      - "C:/Windows/mt.exe"
-      - "C:/Windows/mt"
-      - "C:/Windows/System32/wbem/mt.com"
-      - "C:/Windows/System32/wbem/mt.exe"
-      - "C:/Windows/System32/wbem/mt"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
-      - "C:/Windows/System32/OpenSSH/mt.com"
-      - "C:/Windows/System32/OpenSSH/mt.exe"
-      - "C:/Windows/System32/OpenSSH/mt"
-      - "C:/Program Files/dotnet/mt.com"
-      - "C:/Program Files/dotnet/mt.exe"
-      - "C:/Program Files/dotnet/mt"
-      - "C:/MinGW/bin/mt.com"
-      - "C:/MinGW/bin/mt.exe"
-      - "C:/MinGW/bin/mt"
-      - "C:/Program Files (x86)/Incredibuild/mt.com"
-      - "C:/Program Files (x86)/Incredibuild/mt.exe"
-      - "C:/Program Files (x86)/Incredibuild/mt"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
-      - "C:/Program Files/Git/cmd/mt.com"
-      - "C:/Program Files/Git/cmd/mt.exe"
-      - "C:/Program Files/Git/cmd/mt"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.com"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.exe"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt.com"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt.exe"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt.com"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt.exe"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt"
-      - "C:/Users/jackB/.cargo/bin/mt.com"
-      - "C:/Users/jackB/.cargo/bin/mt.exe"
-      - "C:/Users/jackB/.cargo/bin/mt"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/mt.com"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/mt.exe"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/mt"
-      - "C:/Users/jackB/AppData/Local/afreeca/mt.com"
-      - "C:/Users/jackB/AppData/Local/afreeca/mt.exe"
-      - "C:/Users/jackB/AppData/Local/afreeca/mt"
-      - "C:/Users/jackB/AppData/Local/SOOP/mt.com"
-      - "C:/Users/jackB/AppData/Local/SOOP/mt.exe"
-      - "C:/Users/jackB/AppData/Local/SOOP/mt"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/mt"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/mt.com"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/mt.exe"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/mt"
-      - "C:/Users/jackB/.dotnet/tools/mt.com"
-      - "C:/Users/jackB/.dotnet/tools/mt.exe"
-      - "C:/Users/jackB/.dotnet/tools/mt"
-      - "C:/Program Files/Bandizip/mt.com"
-      - "C:/Program Files/Bandizip/mt.exe"
-      - "C:/Program Files/Bandizip/mt"
-      - "C:/Program Files/CMake/bin/mt.com"
-      - "C:/Program Files/CMake/bin/mt.exe"
-      - "C:/Program Files/CMake/bin/mt"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/mt.com"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/mt.exe"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/mt"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
-        - "C:\\Program Files\\Razer Chroma SDK\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\MinGW\\bin"
-        - "C:\\Program Files (x86)\\Incredibuild"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
-        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
-        - "C:\\Users\\jackB\\.cargo\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
-        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
-        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\jackB\\.dotnet\\tools"
-        - "C:\\Program Files\\Bandizip\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Users\\jackB\\.cargo\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
-        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
-        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Users\\jackB\\.dotnet\\tools"
   -
     kind: "find-v1"
     backtrace:
@@ -665,9 +189,10 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "lib"
+      - "ar"
     candidate_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Windows/System32/"
@@ -696,10 +221,12 @@ events:
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
     searched_directories:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
-    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+      - "d:/Qt/Tools/mingw1310_64/bin/ar.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/ar.exe"
     search_context:
       ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:\\WINDOWS\\system32"
@@ -726,22 +253,1623 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/ranlib.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
         - "C:\\Users\\jackB\\.cargo\\bin"
         - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
         - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
         - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW\\bin"
         - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/strip.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/ld.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/nm.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/objdump.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/objcopy.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/readelf.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/dlltool.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/addr2line.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/tapi.com"
+      - "d:/Qt/Tools/mingw1310_64/bin/tapi.exe"
+      - "d:/Qt/Tools/mingw1310_64/bin/tapi"
+      - "D:/Qt/Tools/mingw1310_64/bin/tapi.com"
+      - "D:/Qt/Tools/mingw1310_64/bin/tapi.exe"
+      - "D:/Qt/Tools/mingw1310_64/bin/tapi"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/tapi.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/tapi.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/tapi"
+      - "C:/Program Files/Razer Chroma SDK/bin/tapi.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/tapi.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/MinGW/bin/tapi.com"
+      - "C:/MinGW/bin/tapi.exe"
+      - "C:/MinGW/bin/tapi"
+      - "C:/Program Files (x86)/Incredibuild/tapi.com"
+      - "C:/Program Files (x86)/Incredibuild/tapi.exe"
+      - "C:/Program Files (x86)/Incredibuild/tapi"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/tapi.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/tapi.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/tapi"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/tapi.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/tapi.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/tapi"
+      - "C:/Users/jackB/.cargo/bin/tapi.com"
+      - "C:/Users/jackB/.cargo/bin/tapi.exe"
+      - "C:/Users/jackB/.cargo/bin/tapi"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/jackB/AppData/Local/afreeca/tapi.com"
+      - "C:/Users/jackB/AppData/Local/afreeca/tapi.exe"
+      - "C:/Users/jackB/AppData/Local/afreeca/tapi"
+      - "C:/Users/jackB/AppData/Local/SOOP/tapi.com"
+      - "C:/Users/jackB/AppData/Local/SOOP/tapi.exe"
+      - "C:/Users/jackB/AppData/Local/SOOP/tapi"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/tapi.com"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/tapi.exe"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/tapi"
+      - "C:/Users/jackB/.dotnet/tools/tapi.com"
+      - "C:/Users/jackB/.dotnet/tools/tapi.exe"
+      - "C:/Users/jackB/.dotnet/tools/tapi"
+      - "C:/Program Files/Bandizip/tapi.com"
+      - "C:/Program Files/Bandizip/tapi.exe"
+      - "C:/Program Files/Bandizip/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/tapi.com"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/tapi.exe"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.1"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ar-13.1.com"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ar-13.1.exe"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ar-13.1"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ar-13.1.com"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ar-13.1.exe"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ar-13.1"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ar-13.1.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ar-13.1.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ar-13.1"
+      - "C:/Windows/System32/gcc-ar-13.1.com"
+      - "C:/Windows/System32/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/gcc-ar-13.1"
+      - "C:/Windows/gcc-ar-13.1.com"
+      - "C:/Windows/gcc-ar-13.1.exe"
+      - "C:/Windows/gcc-ar-13.1"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13.1"
+      - "C:/MinGW/bin/gcc-ar-13.1.com"
+      - "C:/MinGW/bin/gcc-ar-13.1.exe"
+      - "C:/MinGW/bin/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ar-13.1"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ar-13.1.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ar-13.1.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ar-13.1"
+      - "C:/Users/jackB/.cargo/bin/gcc-ar-13.1.com"
+      - "C:/Users/jackB/.cargo/bin/gcc-ar-13.1.exe"
+      - "C:/Users/jackB/.cargo/bin/gcc-ar-13.1"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ar-13.1.com"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ar-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ar-13.1"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ar-13.1.com"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ar-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ar-13.1"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.com"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ar-13.1.com"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ar-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ar-13.1"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ar-13.1.com"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ar-13.1.exe"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ar-13.1"
+      - "C:/Program Files/Bandizip/gcc-ar-13.1.com"
+      - "C:/Program Files/Bandizip/gcc-ar-13.1.exe"
+      - "C:/Program Files/Bandizip/gcc-ar-13.1"
+      - "C:/Program Files/CMake/bin/gcc-ar-13.1.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-13.1.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-13.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-13.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-13.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-13.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ar-13.1.com"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ar-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ar-13.1"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ar-13.com"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ar-13.exe"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ar-13"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ar-13.com"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ar-13.exe"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ar-13"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ar-13"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ar-13.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ar-13.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ar-13"
+      - "C:/Windows/System32/gcc-ar-13.com"
+      - "C:/Windows/System32/gcc-ar-13.exe"
+      - "C:/Windows/System32/gcc-ar-13"
+      - "C:/Windows/gcc-ar-13.com"
+      - "C:/Windows/gcc-ar-13.exe"
+      - "C:/Windows/gcc-ar-13"
+      - "C:/Windows/System32/wbem/gcc-ar-13.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13"
+      - "C:/Program Files/dotnet/gcc-ar-13.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13"
+      - "C:/MinGW/bin/gcc-ar-13.com"
+      - "C:/MinGW/bin/gcc-ar-13.exe"
+      - "C:/MinGW/bin/gcc-ar-13"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ar-13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ar-13"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ar-13.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ar-13.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ar-13"
+      - "C:/Users/jackB/.cargo/bin/gcc-ar-13.com"
+      - "C:/Users/jackB/.cargo/bin/gcc-ar-13.exe"
+      - "C:/Users/jackB/.cargo/bin/gcc-ar-13"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ar-13.com"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ar-13.exe"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ar-13"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ar-13.com"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ar-13.exe"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ar-13"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.com"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.exe"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ar-13.com"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ar-13.exe"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ar-13"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ar-13.com"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ar-13.exe"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ar-13"
+      - "C:/Program Files/Bandizip/gcc-ar-13.com"
+      - "C:/Program Files/Bandizip/gcc-ar-13.exe"
+      - "C:/Program Files/Bandizip/gcc-ar-13"
+      - "C:/Program Files/CMake/bin/gcc-ar-13.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-13.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ar-13.com"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ar-13.exe"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ar-13"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ar13.com"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ar13.exe"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ar13"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ar13.com"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ar13.exe"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ar13"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ar13.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ar13"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ar13.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ar13.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ar13"
+      - "C:/Windows/System32/gcc-ar13.com"
+      - "C:/Windows/System32/gcc-ar13.exe"
+      - "C:/Windows/System32/gcc-ar13"
+      - "C:/Windows/gcc-ar13.com"
+      - "C:/Windows/gcc-ar13.exe"
+      - "C:/Windows/gcc-ar13"
+      - "C:/Windows/System32/wbem/gcc-ar13.com"
+      - "C:/Windows/System32/wbem/gcc-ar13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13"
+      - "C:/Program Files/dotnet/gcc-ar13.com"
+      - "C:/Program Files/dotnet/gcc-ar13.exe"
+      - "C:/Program Files/dotnet/gcc-ar13"
+      - "C:/MinGW/bin/gcc-ar13.com"
+      - "C:/MinGW/bin/gcc-ar13.exe"
+      - "C:/MinGW/bin/gcc-ar13"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ar13.com"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ar13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13"
+      - "C:/Program Files/Git/cmd/gcc-ar13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar13"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ar13.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ar13"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ar13.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ar13.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ar13"
+      - "C:/Users/jackB/.cargo/bin/gcc-ar13.com"
+      - "C:/Users/jackB/.cargo/bin/gcc-ar13.exe"
+      - "C:/Users/jackB/.cargo/bin/gcc-ar13"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ar13.com"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ar13.exe"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ar13"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ar13.com"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ar13.exe"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ar13"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.com"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.exe"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ar13.com"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ar13.exe"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ar13"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ar13.com"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ar13.exe"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ar13"
+      - "C:/Program Files/Bandizip/gcc-ar13.com"
+      - "C:/Program Files/Bandizip/gcc-ar13.exe"
+      - "C:/Program Files/Bandizip/gcc-ar13"
+      - "C:/Program Files/CMake/bin/gcc-ar13.com"
+      - "C:/Program Files/CMake/bin/gcc-ar13.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ar13.com"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ar13.exe"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ar13"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ar.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.1"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/"
+      - "D:/Qt/Tools/mingw1310_64/bin/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Users/jackB/.cargo/bin/"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/jackB/AppData/Local/afreeca/"
+      - "C:/Users/jackB/AppData/Local/SOOP/"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/jackB/.dotnet/tools/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13.1.com"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13.1.exe"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13.1"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13.1.com"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13.1.exe"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ranlib-13.1"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ranlib-13.1"
+      - "C:/Windows/System32/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-13.1"
+      - "C:/Windows/gcc-ranlib-13.1.com"
+      - "C:/Windows/gcc-ranlib-13.1.exe"
+      - "C:/Windows/gcc-ranlib-13.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1"
+      - "C:/MinGW/bin/gcc-ranlib-13.1.com"
+      - "C:/MinGW/bin/gcc-ranlib-13.1.exe"
+      - "C:/MinGW/bin/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ranlib-13.1"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ranlib-13.1"
+      - "C:/Users/jackB/.cargo/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/jackB/.cargo/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/jackB/.cargo/bin/gcc-ranlib-13.1"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ranlib-13.1.com"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ranlib-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ranlib-13.1"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ranlib-13.1.com"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ranlib-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ranlib-13.1"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13.1"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ranlib-13.1.com"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ranlib-13.1.exe"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ranlib-13.1"
+      - "C:/Program Files/Bandizip/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Bandizip/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Bandizip/gcc-ranlib-13.1"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13.1.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-13.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ranlib-13.1.com"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ranlib-13.1.exe"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ranlib-13.1"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13.com"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13.exe"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13.com"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13.exe"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ranlib-13"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ranlib-13"
+      - "C:/Windows/System32/gcc-ranlib-13.com"
+      - "C:/Windows/System32/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/gcc-ranlib-13"
+      - "C:/Windows/gcc-ranlib-13.com"
+      - "C:/Windows/gcc-ranlib-13.exe"
+      - "C:/Windows/gcc-ranlib-13"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13"
+      - "C:/MinGW/bin/gcc-ranlib-13.com"
+      - "C:/MinGW/bin/gcc-ranlib-13.exe"
+      - "C:/MinGW/bin/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ranlib-13"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ranlib-13"
+      - "C:/Users/jackB/.cargo/bin/gcc-ranlib-13.com"
+      - "C:/Users/jackB/.cargo/bin/gcc-ranlib-13.exe"
+      - "C:/Users/jackB/.cargo/bin/gcc-ranlib-13"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ranlib-13.com"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ranlib-13.exe"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ranlib-13"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ranlib-13.com"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ranlib-13.exe"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ranlib-13"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.com"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.exe"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13.com"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13.exe"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ranlib-13.com"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ranlib-13.exe"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ranlib-13"
+      - "C:/Program Files/Bandizip/gcc-ranlib-13.com"
+      - "C:/Program Files/Bandizip/gcc-ranlib-13.exe"
+      - "C:/Program Files/Bandizip/gcc-ranlib-13"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ranlib-13.com"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ranlib-13.exe"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ranlib-13"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ranlib13.com"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ranlib13.exe"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ranlib13"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ranlib13.com"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ranlib13.exe"
+      - "D:/Qt/Tools/mingw1310_64/bin/gcc-ranlib13"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/gcc-ranlib13"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ranlib13.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/gcc-ranlib13"
+      - "C:/Windows/System32/gcc-ranlib13.com"
+      - "C:/Windows/System32/gcc-ranlib13.exe"
+      - "C:/Windows/System32/gcc-ranlib13"
+      - "C:/Windows/gcc-ranlib13.com"
+      - "C:/Windows/gcc-ranlib13.exe"
+      - "C:/Windows/gcc-ranlib13"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13"
+      - "C:/Program Files/dotnet/gcc-ranlib13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib13"
+      - "C:/MinGW/bin/gcc-ranlib13.com"
+      - "C:/MinGW/bin/gcc-ranlib13.exe"
+      - "C:/MinGW/bin/gcc-ranlib13"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Incredibuild/gcc-ranlib13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/gcc-ranlib13"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ranlib13.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/gcc-ranlib13"
+      - "C:/Users/jackB/.cargo/bin/gcc-ranlib13.com"
+      - "C:/Users/jackB/.cargo/bin/gcc-ranlib13.exe"
+      - "C:/Users/jackB/.cargo/bin/gcc-ranlib13"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ranlib13.com"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ranlib13.exe"
+      - "C:/Users/jackB/AppData/Local/afreeca/gcc-ranlib13"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ranlib13.com"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ranlib13.exe"
+      - "C:/Users/jackB/AppData/Local/SOOP/gcc-ranlib13"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.com"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.exe"
+      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ranlib13.com"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ranlib13.exe"
+      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/gcc-ranlib13"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ranlib13.com"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ranlib13.exe"
+      - "C:/Users/jackB/.dotnet/tools/gcc-ranlib13"
+      - "C:/Program Files/Bandizip/gcc-ranlib13.com"
+      - "C:/Program Files/Bandizip/gcc-ranlib13.exe"
+      - "C:/Program Files/Bandizip/gcc-ranlib13"
+      - "C:/Program Files/CMake/bin/gcc-ranlib13.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ranlib13.com"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ranlib13.exe"
+      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/gcc-ranlib13"
+      - "d:/Qt/Tools/mingw1310_64/bin/gcc-ranlib.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Users\\jackB\\.cargo\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
+        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
+        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\jackB\\.dotnet\\tools"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
@@ -756,8 +1884,10 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "rc"
+      - "windres"
+      - "windres"
     candidate_directories:
+      - "D:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Windows/System32/"
@@ -794,130 +1924,16 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files/ClientSocketProject/bin/"
-      - "C:/Program Files/ClientSocketProject/sbin/"
-      - "C:/Program Files/ClientSocketProject/"
+      - "C:/Program Files (x86)/ClientSocketProject/bin/"
+      - "C:/Program Files (x86)/ClientSocketProject/sbin/"
+      - "C:/Program Files (x86)/ClientSocketProject/"
     searched_directories:
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc.com"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc.exe"
-      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc"
-      - "C:/Program Files/Razer Chroma SDK/bin/rc.com"
-      - "C:/Program Files/Razer Chroma SDK/bin/rc.exe"
-      - "C:/Program Files/Razer Chroma SDK/bin/rc"
-      - "C:/Windows/System32/rc.com"
-      - "C:/Windows/System32/rc.exe"
-      - "C:/Windows/System32/rc"
-      - "C:/Windows/rc.com"
-      - "C:/Windows/rc.exe"
-      - "C:/Windows/rc"
-      - "C:/Windows/System32/wbem/rc.com"
-      - "C:/Windows/System32/wbem/rc.exe"
-      - "C:/Windows/System32/wbem/rc"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
-      - "C:/Windows/System32/OpenSSH/rc.com"
-      - "C:/Windows/System32/OpenSSH/rc.exe"
-      - "C:/Windows/System32/OpenSSH/rc"
-      - "C:/Program Files/dotnet/rc.com"
-      - "C:/Program Files/dotnet/rc.exe"
-      - "C:/Program Files/dotnet/rc"
-      - "C:/MinGW/bin/rc.com"
-      - "C:/MinGW/bin/rc.exe"
-      - "C:/MinGW/bin/rc"
-      - "C:/Program Files (x86)/Incredibuild/rc.com"
-      - "C:/Program Files (x86)/Incredibuild/rc.exe"
-      - "C:/Program Files (x86)/Incredibuild/rc"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
-      - "C:/Program Files/Git/cmd/rc.com"
-      - "C:/Program Files/Git/cmd/rc.exe"
-      - "C:/Program Files/Git/cmd/rc"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.com"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.exe"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc.com"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc.exe"
-      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc.com"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc.exe"
-      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc"
-      - "C:/Users/jackB/.cargo/bin/rc.com"
-      - "C:/Users/jackB/.cargo/bin/rc.exe"
-      - "C:/Users/jackB/.cargo/bin/rc"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/rc.com"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/rc.exe"
-      - "C:/Users/jackB/AppData/Local/Microsoft/WindowsApps/rc"
-      - "C:/Users/jackB/AppData/Local/afreeca/rc.com"
-      - "C:/Users/jackB/AppData/Local/afreeca/rc.exe"
-      - "C:/Users/jackB/AppData/Local/afreeca/rc"
-      - "C:/Users/jackB/AppData/Local/SOOP/rc.com"
-      - "C:/Users/jackB/AppData/Local/SOOP/rc.exe"
-      - "C:/Users/jackB/AppData/Local/SOOP/rc"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
-      - "C:/Users/jackB/AppData/Local/Programs/Microsoft VS Code/bin/rc"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/rc.com"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/rc.exe"
-      - "C:/Users/jackB/AppData/Local/GitHubDesktop/bin/rc"
-      - "C:/Users/jackB/.dotnet/tools/rc.com"
-      - "C:/Users/jackB/.dotnet/tools/rc.exe"
-      - "C:/Users/jackB/.dotnet/tools/rc"
-      - "C:/Program Files/Bandizip/rc.com"
-      - "C:/Program Files/Bandizip/rc.exe"
-      - "C:/Program Files/Bandizip/rc"
-      - "C:/Program Files/CMake/bin/rc.com"
-      - "C:/Program Files/CMake/bin/rc.exe"
-      - "C:/Program Files/CMake/bin/rc"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/rc.com"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/rc.exe"
-      - "C:/Users/jackB/AppData/Local/Muse Hub/lib/rc"
-      - "C:/Program Files/bin/rc.com"
-      - "C:/Program Files/bin/rc.exe"
-      - "C:/Program Files/bin/rc"
-      - "C:/Program Files/sbin/rc.com"
-      - "C:/Program Files/sbin/rc.exe"
-      - "C:/Program Files/sbin/rc"
-      - "C:/Program Files/rc.com"
-      - "C:/Program Files/rc.exe"
-      - "C:/Program Files/rc"
-      - "C:/Program Files (x86)/bin/rc.com"
-      - "C:/Program Files (x86)/bin/rc.exe"
-      - "C:/Program Files (x86)/bin/rc"
-      - "C:/Program Files (x86)/sbin/rc.com"
-      - "C:/Program Files (x86)/sbin/rc.exe"
-      - "C:/Program Files (x86)/sbin/rc"
-      - "C:/Program Files (x86)/rc.com"
-      - "C:/Program Files (x86)/rc.exe"
-      - "C:/Program Files (x86)/rc"
-      - "C:/Program Files/CMake/bin/rc.com"
-      - "C:/Program Files/CMake/bin/rc.exe"
-      - "C:/Program Files/CMake/bin/rc"
-      - "C:/Program Files/CMake/sbin/rc.com"
-      - "C:/Program Files/CMake/sbin/rc.exe"
-      - "C:/Program Files/CMake/sbin/rc"
-      - "C:/Program Files/CMake/rc.com"
-      - "C:/Program Files/CMake/rc.exe"
-      - "C:/Program Files/CMake/rc"
-      - "C:/Program Files/ClientSocketProject/bin/rc.com"
-      - "C:/Program Files/ClientSocketProject/bin/rc.exe"
-      - "C:/Program Files/ClientSocketProject/bin/rc"
-      - "C:/Program Files/ClientSocketProject/sbin/rc.com"
-      - "C:/Program Files/ClientSocketProject/sbin/rc.exe"
-      - "C:/Program Files/ClientSocketProject/sbin/rc"
-      - "C:/Program Files/ClientSocketProject/rc.com"
-      - "C:/Program Files/ClientSocketProject/rc.exe"
-      - "C:/Program Files/ClientSocketProject/rc"
-    found: false
+      - "D:/Qt/Tools/mingw1310_64/bin/windres.com"
+    found: "D:/Qt/Tools/mingw1310_64/bin/windres.exe"
     search_context:
       ENV{PATH}:
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "d:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:\\WINDOWS\\system32"
@@ -944,21 +1960,13 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Users\\jackB\\.cargo\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\jackB\\AppData\\Local\\afreeca"
-        - "C:\\Users\\jackB\\AppData\\Local\\SOOP"
-        - "C:\\Users\\jackB\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW\\bin"
-        - "C:\\Users\\jackB\\AppData\\Local\\GitHubDesktop\\bin"
         - "C:\\Users\\jackB\\AppData\\Local\\Muse Hub\\lib"
-        - "C:\\Users\\jackB\\.dotnet\\tools"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/ClientSocketProject"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ClientSocketProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files/ClientSocketProject"
+        - "C:/Program Files (x86)/ClientSocketProject"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -968,52 +1976,111 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/SaveProject/[2803]Client_Socket/build/CMakeFiles/CMakeScratch/TryCompile-ns8whl"
-      binary: "D:/SaveProject/[2803]Client_Socket/build/CMakeFiles/CMakeScratch/TryCompile-ns8whl"
+      source: "D:/SaveProject/2803_Client_Socket/Socket/build/CMakeFiles/CMakeScratch/TryCompile-74u6yl"
+      binary: "D:/SaveProject/2803_Client_Socket/Socket/build/CMakeFiles/CMakeScratch/TryCompile-74u6yl"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/SaveProject/[2803]Client_Socket/build/CMakeFiles/CMakeScratch/TryCompile-ns8whl'
+        Change Dir: 'D:/SaveProject/2803_Client_Socket/Socket/build/CMakeFiles/CMakeScratch/TryCompile-74u6yl'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_66815.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        msbuild 踰꾩쟾 17.14.23+b0019275e(.NET Framework??
-        鍮뚮뱶 ?쒖옉: 2026-01-14 ?ㅼ쟾 12:03:59
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_9f85b/fast
+        D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9f85b.dir\\build.make CMakeFiles/cmTC_9f85b.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/SaveProject/2803_Client_Socket/Socket/build/CMakeFiles/CMakeScratch/TryCompile-74u6yl'
+        Building CXX object CMakeFiles/cmTC_9f85b.dir/CMakeCXXCompilerABI.cpp.obj
+        d:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=d:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9f85b.dir\\'
+         D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_9f85b.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\jackB\\AppData\\Local\\Temp\\ccxEhjZU.s
+        GNU C++17 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
         
-        1 ?몃뱶??"D:\\SaveProject\\[2803]Client_Socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns8whl\\cmTC_66815.vcxproj" ?꾨줈?앺듃(湲곕낯 ?\xc2\x80???낅땲??
-        PrepareForBuild:
-          援ъ“??異쒕젰???ъ슜?????덉뒿?덈떎. 而댄뙆?쇰윭 吏꾨떒???쒖떇?\xc2\x80 ?ㅻ쪟 怨꾩링 援ъ“瑜?諛섏쁺?⑸땲?? ?먯꽭???댁슜?\xc2\x80 https://aka.ms/cpp/structured-output??李몄“?섏꽭??
-          "D:\\SaveProject\\[2803]Client_Socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns8whl\\Debug\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
-          "cmTC_66815.dir\\Debug\\cmTC_66815.tlog\\" ?붾젆?곕━瑜?留뚮뱾怨??덉뒿?덈떎.
-        InitializeBuildStatus:
-          "AlwaysCreate"??媛\xc2\x80) 吏\xc2\x80?뺣릺?덇린 ?뚮Ц??"cmTC_66815.dir\\Debug\\cmTC_66815.tlog\\unsuccessfulbuild"??瑜? 留뚮뱾怨??덉뒿?덈떎.
-          "cmTC_66815.dir\\Debug\\cmTC_66815.tlog\\unsuccessfulbuild"???곌껐(touching)?섍퀬 ?덉뒿?덈떎.
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_66815.dir\\Debug\\\\" /Fd"cmTC_66815.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ 理쒖쟻??而댄뙆?쇰윭 踰꾩쟾 19.44.35222(x64)
-          Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_66815.dir\\Debug\\\\" /Fd"cmTC_66815.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
-          CMakeCXXCompilerABI.cpp
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\SaveProject\\[2803]Client_Socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns8whl\\Debug\\cmTC_66815.exe" /INCREMENTAL /ILK:"cmTC_66815.dir\\Debug\\cmTC_66815.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/SaveProject/[2803]Client_Socket/build/CMakeFiles/CMakeScratch/TryCompile-ns8whl/Debug/cmTC_66815.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/SaveProject/[2803]Client_Socket/build/CMakeFiles/CMakeScratch/TryCompile-ns8whl/Debug/cmTC_66815.lib" /MACHINE:X64  /machine:x64 cmTC_66815.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_66815.vcxproj -> D:\\SaveProject\\[2803]Client_Socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns8whl\\Debug\\cmTC_66815.exe
-        FinalizeBuildStatus:
-          "cmTC_66815.dir\\Debug\\cmTC_66815.tlog\\unsuccessfulbuild" ?뚯씪????젣?섍퀬 ?덉뒿?덈떎.
-          "cmTC_66815.dir\\Debug\\cmTC_66815.tlog\\cmTC_66815.lastbuildstate"???곌껐(touching)?섍퀬 ?덉뒿?덈떎.
-        "D:\\SaveProject\\[2803]Client_Socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns8whl\\cmTC_66815.vcxproj" ?꾨줈?앺듃瑜?鍮뚮뱶?덉뒿?덈떎(湲곕낯 ?\xc2\x80??.
-        
-        鍮뚮뱶?덉뒿?덈떎.
-            寃쎄퀬 0媛?
-            ?ㅻ쪟 0媛?
-        
-        寃쎄낵 ?쒓컙: 00:00:00.50
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: b3d236387f35294e2a73c51628039e05
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9f85b.dir\\'
+         D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\jackB\\AppData\\Local\\Temp\\ccxEhjZU.s
+        GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
+        COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_9f85b.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9f85b.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=d:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) 
+        COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f85b.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_9f85b.'
+         D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jackB\\AppData\\Local\\Temp\\ccqYiUWf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_9f85b.exe D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9f85b.dir/objects.a --no-whole-archive --out-implib libcmTC_9f85b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        collect2 version 13.1.0
+        D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jackB\\AppData\\Local\\Temp\\ccqYiUWf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_9f85b.exe D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9f85b.dir/objects.a --no-whole-archive --out-implib libcmTC_9f85b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.39
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f85b.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_9f85b.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_9f85b.dir/objects.a
+        D:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_9f85b.dir/objects.a @CMakeFiles\\cmTC_9f85b.dir\\objects1.rsp
+        d:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_9f85b.dir/objects.a -Wl,--no-whole-archive -o cmTC_9f85b.exe -Wl,--out-implib,libcmTC_9f85b.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'D:/SaveProject/2803_Client_Socket/Socket/build/CMakeFiles/CMakeScratch/TryCompile-74u6yl'
         
       exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include]
+      
+      
   -
     kind: "message-v1"
     backtrace:
@@ -1022,12 +2089,166 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/SaveProject/2803_Client_Socket/Socket/build/CMakeFiles/CMakeScratch/TryCompile-74u6yl']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_9f85b/fast]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9f85b.dir\\build.make CMakeFiles/cmTC_9f85b.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/SaveProject/2803_Client_Socket/Socket/build/CMakeFiles/CMakeScratch/TryCompile-74u6yl']
+        ignore line: [Building CXX object CMakeFiles/cmTC_9f85b.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [d:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=d:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9f85b.dir\\']
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_9f85b.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\jackB\\AppData\\Local\\Temp\\ccxEhjZU.s]
+        ignore line: [GNU C++17 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/Qt/Tools/mingw1310_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b3d236387f35294e2a73c51628039e05]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9f85b.dir\\']
+        ignore line: [ D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\jackB\\AppData\\Local\\Temp\\ccxEhjZU.s]
+        ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
+        ignore line: [COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9f85b.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_9f85b.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9f85b.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=d:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) ]
+        ignore line: [COMPILER_PATH=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f85b.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_9f85b.']
+        link line: [ D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jackB\\AppData\\Local\\Temp\\ccqYiUWf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_9f85b.exe D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9f85b.dir/objects.a --no-whole-archive --out-implib libcmTC_9f85b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=D:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\jackB\\AppData\\Local\\Temp\\ccqYiUWf.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_9f85b.exe] ==> ignore
+          arg [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_9f85b.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_9f85b.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        linker tool for 'CXX': ../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc] ==> [D:/Qt/Tools/mingw1310_64/lib/gcc]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [D:/Qt/Tools/mingw1310_64/lib]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [D:/Qt/Tools/mingw1310_64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib/crt2.o;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0;D:/Qt/Tools/mingw1310_64/lib/gcc;D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/lib;D:/Qt/Tools/mingw1310_64/lib]
         implicit fwks: []
       
       
@@ -1039,7 +2260,26 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.44.35222.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
+      Running the CXX compiler's linker: "../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "../src/gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/include -I/c/buildroot/prerequisites/x86_64-zlib-static/include -I/c/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/c/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64/bin/ld.exe" "--version"
+      
 ...

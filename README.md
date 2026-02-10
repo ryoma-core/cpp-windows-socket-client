@@ -1,6 +1,6 @@
 # cpp-windows-socket-client
 
-개인용 C++ Window TCP 서버 소켓 코드/라이브러리.  
+개인용 C++ **Windows TCP 클라이언트** 소켓 코드/라이브러리. (WinSock)  
 **친절한 설명 없음.** 불편하면 쓰지 말고, 쓸 거면 **코드부터** 봐라.
 
 - 목적: 내가 쓰려고 만든 것
@@ -11,7 +11,7 @@
 
 ## What this is
 
-- Window 환경에서 돌아가는 **TCP 소켓 객체** 구현
+- Windows 환경 **TCP 클라이언트 소켓(WinSock)** 구현
 - “재사용 가능한 코드”처럼 보이지만, 기본적으로 **내 프로젝트 부품**
 
 ---
@@ -27,8 +27,8 @@
 ## Build (CMake)
 
 ```bash
-git clone https://github.com/ryoma-core/cpp-linux-socket-server
-cd cpp-linux-socket-server
+git clone https://github.com/ryoma-core/cpp-windows-socket-client
+cd cpp-windows-socket-client/Socket
 
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build -j
+cmake --build build --config Release
